@@ -3,7 +3,8 @@ body {
 font-family: 'Roboto', sans-serif;
 }
 
-p {text-align: right;
+#equation {text-align: right;
+  color: #DAD6D6;
 padding-top: 15px;
 font-size: 16px}
 
@@ -32,14 +33,15 @@ font-size: 16px}
   text-align: right;
   outline: none;
   padding-right: 10px;
-  border-bottom: solid 1px #D10233;
+  border-bottom: solid 1px #CC444B;
   padding: 0px 20px;
 }
 
 .num,
 .op,
+.per,
 .equals,
-.deci{
+.deci {
   background-color: #DAD6D6;
   border: none;
   margin: 3px;
@@ -69,10 +71,14 @@ font-size: 16px}
   background-color: #F4AC45;
 }
 
+.opSelected {
+  background-color: #F7C277;
+} 
+
 .equals {
-  border-bottom: solid 4px #D10233;
+  border-bottom: solid 4px #CC444B;
 }
 
 .equals:hover {
-  background-color: #D10233;
+  background-color: #CC444B;
 }
